@@ -1,0 +1,110 @@
+* {
+	font-family: "Source Code Pro Black";
+}
+
+.sidenav {
+    height: 16%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 60px;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.sidenav a:hover {
+    color: #F1F1F1;
+}
+
+.sidenav .closeBtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    margin-left: 50px;
+}
+
+#menubar {
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #A0A0A0;
+}
+
+#menubar a {
+	float: left;
+	text-align: left;
+}
+
+#icon, #title {
+	color: white;
+}
+
+#icon {
+	cursor: pointer;
+	font-size: 30px;
+}
+
+#title {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#main {
+	margin-top: 70px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#img1, #img2, #img3 {
+	height: 30%;
+	position: fixed;
+}
+
+#img1 {
+	top: 20%;
+	left: 41%;
+}
+
+#img2 {
+	bottom: 10%;
+	left: 20%;
+}
+
+#img3 {
+	bottom: 10%;
+	right: 20%;
+}
+
+#rgb, #cmyk, #whatisit, #type, #diff, #adv, #team, #smd {
+	padding: 30px;
+}
+
+#imgRGB, #imgCMYK, #imgChroma, #imgType, #imgGrupo, #imgSMD {
+	width: 100%;
+}
+
+th {
+	text-align: left;
+}
+
+td {
+	vertical-align: top;
+}
+
+#messagebox {
+	width: 324px;
+	height: 162px;
+}
